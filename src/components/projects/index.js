@@ -16,18 +16,16 @@ const Projects = () => {
                 image={'color-assist-vscode.png'}
             />
             <Project
-                name={'Microservices app'}
-                description={'Ticketing app based on microservices architecture. \
-                NATS, Typescript, Google Kubernetes Engine, Stripe, Auth, MongoDB.'}
-                link={'http://34.107.111.208/'}
-                image={'microservices-gke.png'}
+                name={'Minimal Site One'}
+                description={'Less is more.'}
+                link={'https://axmz.github.io/react-minimal-site-one/'}
+                image={'minimal-site-one.png'}
             />
             <Project
-                name={'E-commerce site'}
-                description={'Frontend for e-commerce site, built with \
-                React.js, Redux Saga, GraphQL, Stripe and Firebase'}
-                link={'https://crwn-axmz.herokuapp.com/'}
-                image={'crwn-stripe.png'}
+                name={'Minimal Site Two'}
+                description={'Less is more.'}
+                link={'https://axmz.github.io/react-minimal-site-two/'}
+                image={'minimal-site-two.png'}
             />
             <Project
                 name={'Searchbox Awesome'}
@@ -62,6 +60,13 @@ const Projects = () => {
                 </div>
             </Project>
             <Project
+                name={'Compose Windows'}
+                description={'Gmail-like compose windows.'}
+                link={'https://axmz.github.io/react-compose-windows'}
+                video={'windows.mp4'}
+            >
+            </Project>
+            <Project
                 name={'News Feed Web App Template'}
                 description={'News feed web app template with GraphQL in the front and backend.'}
                 link={'https://news-feed-template-client.herokuapp.com/'}
@@ -88,6 +93,20 @@ const Projects = () => {
                 description={'A server in Go that allows authentication. Deployed on AWS.'}
                 link={'http://ec2-18-184-228-48.eu-central-1.compute.amazonaws.com/'}
                 image={'goauth.png'}
+            />
+            <Project
+                name={'Microservices app'}
+                description={'Ticketing app based on microservices architecture. \
+                NATS, Typescript, Google Kubernetes Engine, Stripe, Auth, MongoDB.'}
+                link={'http://34.107.111.208/'}
+                image={'microservices-gke.png'}
+            />
+            <Project
+                name={'E-commerce site'}
+                description={'Frontend for e-commerce site, built with \
+                React.js, Redux Saga, GraphQL, Stripe and Firebase'}
+                link={'https://crwn-axmz.herokuapp.com/'}
+                image={'crwn-stripe.png'}
             />
             <Project
                 name={'CMS app'}
