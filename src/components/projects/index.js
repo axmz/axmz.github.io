@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from './project/project'
+import Project from '../project/project'
 // fab
 import fab from "../../images/fab.gif"
 import fabdoge from "../../images/fab-doge.gif"

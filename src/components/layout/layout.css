@@ -1,0 +1,27 @@
+@import "~normalize.css";
+@font-face {
+  font-family: "Akkurat-Light";
+  src: url(/fonts/Akkurat-Light.ttf);
+}
+
+html {
+  font-family: "Akkurat-Light", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #555;
+}

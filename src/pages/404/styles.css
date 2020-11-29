@@ -1,0 +1,4 @@
+.not-found {
+  height: calc(100vh - 14rem);
+  text-align: center;
+}

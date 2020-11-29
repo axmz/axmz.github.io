@@ -1,0 +1,27 @@
+.about {
+  position: relative;
+  /* background-color: pink; */
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  font-size: calc(12px + 5vw);
+  /* color: white; */
+  color: #696969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1vw;
+  color: white;
+}
+
+.about__text {
+  padding: 10vw;
+  text-align: justify;
+}
+

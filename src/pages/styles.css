@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.menu__item {
+    font-weight: 900;
+}
